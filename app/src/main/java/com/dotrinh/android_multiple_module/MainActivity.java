@@ -14,6 +14,7 @@ import android.os.Bundle;
 import com.dotrinh.metaverse.Cow;
 import com.dotrinh.metaverse.Fish;
 import com.dotrinh.metaverse1.Planet;
+import com.dotrinh.metaverse2.SocialMedia;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -55,5 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
         LogI("//////////////////////////////");
         LogI("metaverse 2");
+        SocialMedia socialMedia = new SocialMedia("Facebook");
+        socialMedia.printInfo();
     }
 }
