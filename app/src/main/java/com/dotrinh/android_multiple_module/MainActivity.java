@@ -21,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Fish f0 = new Fish();
+        f0.setName("Cá rô đồng");
+        f0.setAge(0.2f);
+        f0.setWater("Freshwater");
+
         Fish f1 = new Fish();
         f1.setName("Tuna");
         f1.setAge(0.6f);
@@ -32,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         c1.setCountry("Việt Nam");
 
         //show
+        f0.printInfo();
+        LogI("---------------------");
         f1.printInfo();
         LogI("---------------------");
         c1.printInfo();
