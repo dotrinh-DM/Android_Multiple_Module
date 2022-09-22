@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Android_Multiple_Module"
 include ':app'
+include ':metaverse'
