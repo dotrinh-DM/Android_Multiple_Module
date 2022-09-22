@@ -17,3 +17,4 @@ rootProject.name = "Android_Multiple_Module"
 //include all app and module
 include ':app'
 include ':metaverse'
+include ':metaverse1'

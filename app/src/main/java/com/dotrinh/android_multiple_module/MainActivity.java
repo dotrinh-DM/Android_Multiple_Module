@@ -13,6 +13,7 @@ import android.os.Bundle;
 
 import com.dotrinh.metaverse.Cow;
 import com.dotrinh.metaverse.Fish;
+import com.dotrinh.metaverse1.Planet;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        LogI("//////////////////////////////");
+        LogI("metaverse 0");
         Fish f0 = new Fish();
         f0.setName("Cá rô đồng");
         f0.setAge(0.2f);
@@ -42,5 +45,15 @@ public class MainActivity extends AppCompatActivity {
         f1.printInfo();
         LogI("---------------------");
         c1.printInfo();
+
+
+        LogI("//////////////////////////////");
+        LogI("metaverse 1");
+        Planet p1 = new Planet();
+        p1.setName("Mars");
+        p1.printInfo();
+
+        LogI("//////////////////////////////");
+        LogI("metaverse 2");
     }
 }
